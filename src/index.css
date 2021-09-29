@@ -2,6 +2,17 @@
   --green: rgb(39, 189, 39);
 }
 
+#newPrice{
+  margin: 0px 10px;
+  font-size: 12px; 
+  border-radius: 25px;
+  background-color: rgb(39, 189, 39);
+  color: rgb(255, 255, 255);
+}
+#newPrice:hover{
+  background-color: rgb(241, 241, 241);
+  color: rgb(0, 0, 0);
+}
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +37,7 @@ button {
 button.primary {
   background-color: var(--green);
   color: white;
+  width: 105.52px;
 }
 
 .app {
